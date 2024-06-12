@@ -7,7 +7,7 @@ import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/react-hw-9">
+  <BrowserRouter basename="/react-hw-10">
     <React.StrictMode>
       <App />
     </React.StrictMode>
