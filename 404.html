@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var path = window.location.pathname;
+        var newPath = path.substr(path.lastIndexOf("/"));
+        window.location.replace("/react-hw-10" + newPath);
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
