@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./ToDo.module.css";
 import Task from "../Task/Task";
 import FilterTask from "../FilterTask/FilterTask";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 const ToDoList = ({
   todos,
@@ -17,6 +18,7 @@ const ToDoList = ({
   const [error, setError] = useState("");
   const [search, setSearch] = useState("");
   const [editingTask, setEditingTask] = useState(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleAddTask = () => {
     if (newTaskName.length < 3) {
@@ -87,6 +89,22 @@ const ToDoList = ({
   return (
     <div className={styles.container}>
       <div className={styles.content}>
+        <>
+          <button
+            style={{
+              border: "none",
+              backgroundColor: "transparent",
+              position: "absolute",
+              top: 20,
+              right: 20,
+              fontSize: "24px",
+            }}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            =
+          </button>
+          {isMenuOpen && <BurgerMenu />}
+        </>
         <h1 className={styles.title}>My ToDo</h1>
         <input
           className={styles.input}
