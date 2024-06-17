@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  max-width: 300px;
+  height: 100%;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.content {
+  padding: 30px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.startBtn {
+  width: 100%;
+  font-family: "Gill Sans", sans-serif;
+  color: darkslategrey;
+  font-size: 14pt;
+  background-color: lightcoral;
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 70px;
+}
+
+.title {
+  font-family: "Gill Sans", sans-serif;
+  color: darkslategrey;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.errorBtn {
+  max-width: 50vw;
+  font-family: "Gill Sans", sans-serif;
+  color: darkslategrey;
+  font-size: 14pt;
+  background-color: lightcoral;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 70px;
+}
