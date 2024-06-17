@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-hw-11/static/css/main.914a3e64.css",
-    "main.js": "/react-hw-11/static/js/main.80e327c2.js",
+    "main.js": "/react-hw-11/static/js/main.b2edd00a.js",
     "static/css/935.21b204ef.chunk.css": "/react-hw-11/static/css/935.21b204ef.chunk.css",
     "static/js/935.e3ed00e6.chunk.js": "/react-hw-11/static/js/935.e3ed00e6.chunk.js",
     "static/css/834.0e0d4cf1.chunk.css": "/react-hw-11/static/css/834.0e0d4cf1.chunk.css",
@@ -14,7 +14,7 @@
     "static/js/740.53f009b5.chunk.js": "/react-hw-11/static/js/740.53f009b5.chunk.js",
     "index.html": "/react-hw-11/index.html",
     "main.914a3e64.css.map": "/react-hw-11/static/css/main.914a3e64.css.map",
-    "main.80e327c2.js.map": "/react-hw-11/static/js/main.80e327c2.js.map",
+    "main.b2edd00a.js.map": "/react-hw-11/static/js/main.b2edd00a.js.map",
     "935.21b204ef.chunk.css.map": "/react-hw-11/static/css/935.21b204ef.chunk.css.map",
     "935.e3ed00e6.chunk.js.map": "/react-hw-11/static/js/935.e3ed00e6.chunk.js.map",
     "834.0e0d4cf1.chunk.css.map": "/react-hw-11/static/css/834.0e0d4cf1.chunk.css.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.914a3e64.css",
-    "static/js/main.80e327c2.js"
+    "static/js/main.b2edd00a.js"
   ]
 }
